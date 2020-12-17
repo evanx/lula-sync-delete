@@ -24,7 +24,8 @@
     "ioredis": "^4.19.2",
     "pg": "^8.5.1",
     "pino": "^6.7.0",
-    "pino-pretty": "^4.3.0"
+    "pino-pretty": "^4.3.0",
+    "uuid": "^8.3.2"
   },
   "devDependencies": {
     "eslint": "^7.15.0",

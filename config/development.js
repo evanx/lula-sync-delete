@@ -7,9 +7,14 @@ module.exports = {
     },
   },
   redis: {
-    url: 'redis://localhost:6379',
+    hostKey: 'localhost',
+    connect: {
+      url: 'redis://localhost:6379',
+    },
   },
   postgresql: {
-    connectionString: 'postgresql://app:password@localhost:5432/lula',
+    connect: {
+      connectionString: 'postgresql://app:password@localhost:5432/lula',
+    },
   },
 }

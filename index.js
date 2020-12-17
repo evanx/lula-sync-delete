@@ -1,1 +1,1 @@
-require('./lib/postgresql-app')(require('./lib/start'))
+require('./lib/postgresql-app')(require('./lib/sync'))
